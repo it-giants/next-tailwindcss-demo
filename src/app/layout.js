@@ -1,5 +1,6 @@
 import { Signika } from "next/font/google";
 import "./globals.css";
+import Header from '@/components/header'
 
 const signika = Signika({ subsets: ["latin"] });
 
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={signika.className}>
+      <Header />
         <div className="body-helper overflow-x-hidden">
           {children}
         </div>

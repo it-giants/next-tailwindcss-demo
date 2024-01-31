@@ -27,7 +27,7 @@ function talentsSection() {
         </div>
 
 
-        <div className="flex flex-col md:flex-row justify-center gap-12 md:gap-32 my-12 sm:my-24 max-[639px]:items-center">
+        <div className="flex flex-col md:flex-row justify-center gap-12 md:gap-32 my-12 md:my-28 max-[639px]:items-center">
           <div className="flex max-[767px]:justify-center items-start">
             <Image src={talentVector.src} width={504} height={343} className="object-contain" />
           </div>
